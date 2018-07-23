@@ -17,9 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1.2</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1Ijoic2FtcHl0ZWFtIiwiYSI6ImNqNDd3M3N2eTA4eWIzM3A3NXcyNTRjenMifQ.LdJeq0MmwUUHNIY6jvszog</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionMainStoryboard</key>
@@ -27,5 +29,7 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.message-payload-provider</string>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location for map usage</string>
 </dict>
 </plist>

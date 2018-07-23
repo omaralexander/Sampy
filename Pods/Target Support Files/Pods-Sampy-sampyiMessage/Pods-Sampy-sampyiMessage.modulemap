@@ -1,0 +1,6 @@
+framework module Pods_Sampy_sampyiMessage {
+  umbrella header "Pods-Sampy-sampyiMessage-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,183 @@
+PODS:
+  - AWSCore (2.6.5)
+  - AWSPolly (2.6.5):
+    - AWSCore (= 2.6.5)
+  - BEMCheckBox (1.4.1)
+  - Canvas (0.1.2)
+  - CHIPageControl/Paprika (0.1.4)
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - Fabric (1.7.2)
+  - Firebase (4.5.0):
+    - Firebase/Core (= 4.5.0)
+  - Firebase/Auth (4.5.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.3.1)
+  - Firebase/Core (4.5.0):
+    - FirebaseAnalytics (= 4.0.4)
+    - FirebaseCore (= 4.0.10)
+  - Firebase/Database (4.5.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.0)
+  - Firebase/Messaging (4.5.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.6)
+  - Firebase/Performance (4.5.0):
+    - Firebase/Core
+    - FirebasePerformance (= 1.0.6)
+  - Firebase/Storage (4.5.0):
+    - Firebase/Core
+    - FirebaseStorage (= 2.0.2)
+  - FirebaseAnalytics (4.0.4):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.3.1):
+    - FirebaseAnalytics (~> 4.0)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.10):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseDatabase (4.1.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.5)
+  - FirebaseMessaging (2.0.6):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebasePerformance (1.0.6):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (2.0.2):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleMaps/Base (2.5.0)
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/Logger (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - GTMSessionFetcher/Core (1.1.12)
+  - leveldb-library (1.20)
+  - Mapbox-iOS-SDK (3.6.4)
+  - MapboxCoreNavigation (0.9.0):
+    - MapboxDirections.swift (~> 0.10.5)
+    - MapboxMobileEvents (~> 0.2)
+    - OSRMTextInstructions (~> 0.3)
+    - Turf (~> 0.0.3)
+  - MapboxDirections.swift (0.10.6):
+    - Polyline (= 4.1.1)
+  - MapboxMobileEvents (0.2.10)
+  - MapboxNavigation (0.9.0):
+    - AWSPolly (~> 2.6)
+    - Mapbox-iOS-SDK (~> 3.6)
+    - MapboxCoreNavigation (= 0.9.0)
+    - Pulley (= 1.4)
+    - SDWebImage (~> 4.1)
+    - Solar (= 2.0.0)
+    - Turf (~> 0.0.3)
+  - MarqueeLabel/Swift (3.1.3)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - NotificationBannerSwift (1.5.1):
+    - MarqueeLabel/Swift
+    - SnapKit (~> 4.0)
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
+  - OSRMTextInstructions (0.4.0):
+    - MapboxDirections.swift (~> 0.10)
+  - Polyline (4.1.1)
+  - Protobuf (3.4.0)
+  - Pulley (1.4)
+  - SDWebImage (4.2.1):
+    - SDWebImage/Core (= 4.2.1)
+  - SDWebImage/Core (4.2.1)
+  - SnapKit (4.0.0)
+  - Solar (2.0.0)
+  - Turf (0.0.4)
+
+DEPENDENCIES:
+  - BEMCheckBox
+  - Canvas
+  - CHIPageControl/Paprika
+  - Crashlytics
+  - Fabric
+  - Firebase
+  - Firebase/Auth
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Performance
+  - Firebase/Storage
+  - GooglePlaces
+  - Mapbox-iOS-SDK (~> 3.5)
+  - MapboxNavigation (~> 0.9.0)
+  - NotificationBannerSwift (~> 1.5.1)
+  - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  AWSCore: b4895b4a5256d0040f8825ad31f3477d081f508f
+  AWSPolly: ede618a621f07e1ff3512f2396f2ca96b57d357e
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  CHIPageControl: 032b5ab68506c00711d5a61bd83e9fdf2a7ecb22
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  Firebase: d83d287bdb6b1c78320561482706d1fcfc8ddfc1
+  FirebaseAnalytics: 722b53c7b32bfc7806b06e0093a2f5180d4f2c5a
+  FirebaseAuth: e7c2b1359c2df4af23a568100a8eace0b8c507e4
+  FirebaseCore: da5e8e372cb6046212739a4d81e42d32c22907cc
+  FirebaseDatabase: 607284a103e961d7f5863ee603cab5e85f443bd6
+  FirebaseInstanceID: f2b688c66b972f30d7fa9f5f9f91455454a03b47
+  FirebaseMessaging: 75d83375b0f7a9911568d7bdd1a1a8261cbcbdef
+  FirebasePerformance: fa032c27e229eb8c1a8638918793fe2e47465205
+  FirebaseStorage: 0cca42d9b889a0227c3a50121f45a4469fc9eb27
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
+  leveldb-library: 44ef425bfde64f5b41daef86b38db2d13edbbee1
+  Mapbox-iOS-SDK: 47847dd44285477e0dfffd0130f65c8a52823ada
+  MapboxCoreNavigation: 9cd3a9f11230414091acb822158a245137105b97
+  MapboxDirections.swift: fbe95bd11c66339c1ef8b96301464f326394ac0d
+  MapboxMobileEvents: 9e48b59d0eed04508595dcb04a77b7632e1c3054
+  MapboxNavigation: d99b6973ec4890ae4109a46dd41fb5cf23ad0a16
+  MarqueeLabel: baa5753dcbd36dca080e1f5c589a665aa5c906f1
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NotificationBannerSwift: 666e6c392238561c17a52db4c50e6f00d9942e0d
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
+  OSRMTextInstructions: d8aa1d21310fd31bf256cf245b11b9a8e6413d63
+  Polyline: 381d1e699fd12508f97cfc468478dfbab67edf1f
+  Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
+  Pulley: 3d47a5ca819b8f35a63e9a4811d35035d484d1d9
+  SDWebImage: 1fa4c9edf525b744f002db89f3f5a38b3cd4c541
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Solar: ea092f7660c1b58d2b754227decb61a1c6710826
+  Turf: 6c169618fa671e3f8a7b764b5b3332053ad6110e
+
+PODFILE CHECKSUM: 4c39eea5d986157c4dea5c330bec874eb9d9ad3c
+
+COCOAPODS: 1.3.1
